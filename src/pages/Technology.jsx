@@ -18,8 +18,8 @@ export default function Technology() {
       >
         <div className="text-white font-h2 text-base leading-5 tracking-widest pb-8 sm:text-xl sm:mt-10 sm:ml-10 lg:text-3xl lg:mt-16">
           <h2>
-            <span className="text-gray font-bold pr-2.5 lg:mr-7">03</span>SPACE
-            LAUNCH 101
+            <span className="text-gray font-bold pr-2.5 lg:mr-7">03</span>
+            SPACE LAUNCH 101
           </h2>
         </div>
 
