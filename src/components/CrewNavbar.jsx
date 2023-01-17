@@ -6,19 +6,19 @@ export default function CrewNavbar() {
     <ul className="flex gap-4 py-8">
       <NavLink
         to="/crew/douglas"
-        className="bg-gray rounded-full w-2.5 h-2.5 focus:bg-white"
+        className="bg-gray rounded-full w-2.5 h-2.5 hover:bg-lightGray focus:bg-white"
       ></NavLink>
       <NavLink
         to="/crew/mark"
-        className="bg-gray rounded-full w-2.5 h-2.5 focus:bg-white"
+        className="bg-gray rounded-full w-2.5 h-2.5 hover:bg-lightGray focus:bg-white"
       ></NavLink>
       <NavLink
         to="/crew/victor"
-        className="bg-gray rounded-full w-2.5 h-2.5 focus:bg-white"
+        className="bg-gray rounded-full w-2.5 h-2.5 hover:bg-lightGray focus:bg-white"
       ></NavLink>
       <NavLink
         to="/crew/anousheh"
-        className="bg-gray rounded-full w-2.5 h-2.5 focus:bg-white"
+        className="bg-gray rounded-full w-2.5 h-2.5 hover:bg-lightGray focus:bg-white"
       ></NavLink>
     </ul>
   );
