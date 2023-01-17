@@ -1,5 +1,5 @@
 import React from 'react';
-import CrewNavbar from './CrewNavbar';
+import CrewNavbar from '../navbars/CrewNavbar';
 
 export default function CrewDetails({ crew }) {
   return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import TechnologyNavbar from './TechnologyNavbar';
+import TechnologyNavbar from '../navbars/TechnologyNavbar';
 
 export default function TechnologyDetails({ tech }) {
   return (

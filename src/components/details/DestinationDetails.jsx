@@ -1,5 +1,5 @@
 import React from 'react';
-import DestinationNavbar from '../components/DestinationNavbar';
+import DestinationNavbar from '../navbars/DestinationNavbar';
 
 export default function DestinationDetails({ destination }) {
   return (
