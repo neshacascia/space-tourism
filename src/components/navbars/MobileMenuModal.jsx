@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
-import { Context } from './Context';
+import { Context } from '../Context';
 
 export default function MobileMenuModal() {
   const { closeModal } = useContext(Context);
@@ -17,6 +17,7 @@ export default function MobileMenuModal() {
             <span className="font-bold pr-2.5">00</span> HOME
           </Link>
         </li>
+
         <li>
           <Link
             to="/destination"
@@ -26,6 +27,7 @@ export default function MobileMenuModal() {
             <span className="font-bold pr-2.5">01</span> DESTINATION
           </Link>
         </li>
+
         <li>
           <Link
             to="/crew"
@@ -35,6 +37,7 @@ export default function MobileMenuModal() {
             <span className="font-bold pr-2.5">02</span> CREW
           </Link>
         </li>
+
         <li>
           <Link
             to="/technology"

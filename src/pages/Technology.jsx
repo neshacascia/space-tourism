@@ -1,8 +1,8 @@
 import React, { useContext } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import { Context } from '../components/Context';
-import Navbar from '../components/Navbar';
-import TechnologyDetails from '../components/TechnologyDetails';
+import Navbar from '../components/navbars/Navbar';
+import TechnologyDetails from '../components/details/TechnologyDetails';
 
 import data from '../../data.json';
 

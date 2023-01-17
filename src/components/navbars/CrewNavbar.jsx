@@ -8,14 +8,17 @@ export default function CrewNavbar() {
         to="/crew/douglas"
         className="bg-gray rounded-full w-2.5 h-2.5 hover:bg-lightGray focus:bg-white"
       ></NavLink>
+
       <NavLink
         to="/crew/mark"
         className="bg-gray rounded-full w-2.5 h-2.5 hover:bg-lightGray focus:bg-white"
       ></NavLink>
+
       <NavLink
         to="/crew/victor"
         className="bg-gray rounded-full w-2.5 h-2.5 hover:bg-lightGray focus:bg-white"
       ></NavLink>
+
       <NavLink
         to="/crew/anousheh"
         className="bg-gray rounded-full w-2.5 h-2.5 hover:bg-lightGray focus:bg-white"

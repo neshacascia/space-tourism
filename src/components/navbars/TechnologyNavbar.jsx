@@ -32,5 +32,4 @@ export default function TechnologyNavbar() {
       </li>
     </ul>
   );
-  //border-solid bg-transparent border-white
 }

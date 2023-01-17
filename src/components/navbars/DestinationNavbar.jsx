@@ -12,6 +12,7 @@ export default function DestinationNavbar() {
           MOON
         </NavLink>
       </li>
+
       <li>
         <NavLink
           to="/destination/mars"
@@ -20,6 +21,7 @@ export default function DestinationNavbar() {
           MARS
         </NavLink>
       </li>
+
       <li>
         <NavLink
           to="/destination/europa"
@@ -28,6 +30,7 @@ export default function DestinationNavbar() {
           EUROPA
         </NavLink>
       </li>
+
       <li>
         <NavLink
           to="/destination/titan"

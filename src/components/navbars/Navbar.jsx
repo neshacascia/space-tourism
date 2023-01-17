@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
-import logo from '../assets/shared/logo.svg';
-import hamburgerMenu from '../assets/shared/icon-hamburger.svg';
-import { Context } from './Context';
+import logo from '../../assets/shared/logo.svg';
+import hamburgerMenu from '../../assets/shared/icon-hamburger.svg';
+import { Context } from '../Context';
 
 export default function Navbar(props) {
   const { openModal } = useContext(Context);

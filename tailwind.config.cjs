@@ -30,6 +30,7 @@ module.exports = {
       },
       width: {
         button: '9.375rem',
+        hoverButton: '28.125rem',
         planet: '10.625rem',
         crew: '20.4375rem',
         tech: '23.4375rem',

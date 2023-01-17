@@ -6,11 +6,11 @@ import Destination from './pages/Destination';
 import Crew from './pages/Crew';
 import Technology from './pages/Technology';
 import { Context } from './components/Context';
-import MobileMenuModal from './components/MobileMenuModal';
+import MobileMenuModal from './components/navbars/MobileMenuModal';
 import './App.css';
 
 function App() {
-  const { toggleMenu, closeModal } = useContext(Context);
+  const { toggleMenu } = useContext(Context);
 
   return (
     <div className="App">

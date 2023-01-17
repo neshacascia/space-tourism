@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import Navbar from '../components/Navbar';
+import Navbar from '../components/navbars/Navbar';
 import { Context } from '../components/Context';
 
 export default function Home(props) {
@@ -25,7 +25,7 @@ export default function Home(props) {
           </p>
         </div>
 
-        <div className="right">
+        <div>
           <button className="bg-white font-h1 text-darkBlue text-button h-button w-button rounded-full">
             EXPLORE
           </button>
