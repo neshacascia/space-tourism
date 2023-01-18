@@ -1,49 +1,68 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Routes, Route } from 'react-router-dom';
-import DestinationNavbar from '../components/DestinationNavbar';
+import { Context } from '../components/Context';
+import Navbar from '../components/Navbar';
 import DestinationDetails from '../components/DestinationDetails';
 
 import data from '../../data.json';
 
 export default function Destination(props) {
+  const { closeModal } = useContext(Context);
+
   return (
-    <section>
-      <div className="destination-left">
-        <h2>
-          <span>01</span>PICK YOUR DESTINATION
-        </h2>
-      </div>
+    <div className="bg-destination bg-no-repeat bg-cover h-full">
+      <Navbar />
+      <section
+        onClick={closeModal}
+        className="flex flex-col items-center pb-14"
+      >
+        <div className="text-white font-h2 text-base leading-5 tracking-wider pb-8">
+          <h2>
+            <span className="text-gray font-bold pr-2.5">01</span>PICK YOUR
+            DESTINATION
+          </h2>
+        </div>
 
-      <div className="destination-right">
-        <DestinationNavbar />
-        <Routes>
-          <Route
-            exact
-            path="/"
-            element={<DestinationDetails destination={data.destinations[0]} />}
-          ></Route>
+        <div className="destination-right">
+          <Routes>
+            <Route
+              exact
+              path="/"
+              element={
+                <DestinationDetails destination={data.destinations[0]} />
+              }
+            ></Route>
 
-          <Route
-            path="/moon"
-            element={<DestinationDetails destination={data.destinations[0]} />}
-          ></Route>
+            <Route
+              path="/moon"
+              element={
+                <DestinationDetails destination={data.destinations[0]} />
+              }
+            ></Route>
 
-          <Route
-            path="/mars"
-            element={<DestinationDetails destination={data.destinations[1]} />}
-          ></Route>
+            <Route
+              path="/mars"
+              element={
+                <DestinationDetails destination={data.destinations[1]} />
+              }
+            ></Route>
 
-          <Route
-            path="/europa"
-            element={<DestinationDetails destination={data.destinations[2]} />}
-          ></Route>
+            <Route
+              path="/europa"
+              element={
+                <DestinationDetails destination={data.destinations[2]} />
+              }
+            ></Route>
 
-          <Route
-            path="/titan"
-            element={<DestinationDetails destination={data.destinations[3]} />}
-          ></Route>
-        </Routes>
-      </div>
-    </section>
+            <Route
+              path="/titan"
+              element={
+                <DestinationDetails destination={data.destinations[3]} />
+              }
+            ></Route>
+          </Routes>
+        </div>
+      </section>
+    </div>
   );
 }

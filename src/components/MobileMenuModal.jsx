@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 export default function MobileMenuModal() {
   return (
-    <div className="mobile-menu">
+    <div>
       <ul className="bg-mobileMenu backdrop-blur-mobileMenu h-screen fixed z-10 right-0 w-64 flex flex-col gap-8 pl-8 pt-28 text-white font-h2 font-normal text-base leading-5 tracking-wider">
         <li>
           <Link to="/">

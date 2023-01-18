@@ -1,7 +1,6 @@
 import React, { useContext } from 'react';
 import ReactDOM from 'react-dom';
 import { Routes, Route } from 'react-router-dom';
-import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import Destination from './pages/Destination';
 import Crew from './pages/Crew';
@@ -15,8 +14,7 @@ function App() {
 
   return (
     <div className="App">
-      <Navbar />
-      <section onClick={closeModal}>
+      <section>
         <Routes>
           <Route exact path="/" element={<Home />}></Route>
           <Route path="/destination/*" element={<Destination />}></Route>
