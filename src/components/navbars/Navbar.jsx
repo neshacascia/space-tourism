@@ -9,8 +9,8 @@ export default function Navbar(props) {
 
   return (
     <nav className="flex justify-between items-center h-24 pl-6 lg:pt-10">
-      <img src={logo} className="w-10 h-10 lg:ml-14" />
-      <div></div>
+      <img src={logo} className="w-10 h-10 lg:ml-14 lg:mr-14" />
+      <hr className="w-navBorder border border-gray hidden lg:inline" />
       <ul className="hidden sm:text-white sm:font-h2 tracking-widest sm:flex sm:justify-center sm:items-center sm:gap-8 sm:w-tabletNav sm:h-tabletNav sm:bg-mobileMenu sm:backdrop-blur-mobileMenu lg:w-desktopNav lg:justify-start lg:pl-28 lg:gap-12">
         <NavLink
           to="/"

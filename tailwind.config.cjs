@@ -44,6 +44,7 @@ module.exports = {
       width: {
         tabletNav: '28.125rem',
         desktopNav: '51.875rem',
+        navBorder: '37.5rem',
         homeText: '20.4375rem',
         desktopHomeText: '27.8125rem',
         button: '9.375rem',
