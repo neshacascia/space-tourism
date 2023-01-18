@@ -12,7 +12,7 @@ export default function TechnologyDetails({ tech }) {
       <div className="flex flex-col items-center lg:flex lg:gap-20">
         <TechnologyNavbar />
 
-        <div className="flex flex-col justify-center items-center px-6 lg:w-desktopTechText lg:items-start lg:mr-32">
+        <div className="flex flex-col justify-center items-center px-6 sm:w-tabletText lg:w-desktopTechText lg:items-start lg:mr-32">
           <span className="text-lightBlue font-h2 text-base tracking-wider mb-2 sm:mb-4">
             THE TERMINOLOGY...
           </span>

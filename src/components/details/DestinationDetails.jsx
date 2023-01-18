@@ -18,7 +18,7 @@ export default function DestinationDetails({ destination }) {
           <h1 className="text-white font-h1 text-planetH1 leading-10 text-center sm:text-tabletPlanetH1 sm:my-8">
             {destination.name.toUpperCase()}
           </h1>
-          <p className="text-lightBlue font-body text-center leading-6 pt-4 pb-8 lg:text-left lg:text-lg">
+          <p className="text-lightBlue font-body text-center leading-6 pt-4 pb-8 sm:w-tabletText lg:text-left lg:text-lg">
             {destination.description}
           </p>
           <hr className="w-full border border-gray" />
