@@ -44,6 +44,7 @@ module.exports = {
       width: {
         tabletNav: '28.125rem',
         desktopNav: '51.875rem',
+        homeText: '20.4375rem',
         button: '9.375rem',
         tabletButton: '15.125rem',
         hoverButton: '28.125rem',
@@ -63,6 +64,7 @@ module.exports = {
       },
       height: {
         tabletNav: '6rem',
+        homeText: '7.8125rem',
         button: '9.375rem',
         tabletButton: '15.125rem',
         desktopPlanet: '27.8125rem',
