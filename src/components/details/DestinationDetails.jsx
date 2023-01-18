@@ -3,7 +3,7 @@ import DestinationNavbar from '../navbars/DestinationNavbar';
 
 export default function DestinationDetails({ destination }) {
   return (
-    <div className="flex flex-col items-center lg:flex-row lg:mr-40 lg:gap-40">
+    <div className="flex flex-col items-center md:flex-col lg:flex-row lg:mr-40 lg:gap-40">
       <div>
         <img
           src={destination.images.png}
