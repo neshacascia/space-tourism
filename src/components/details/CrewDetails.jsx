@@ -13,7 +13,7 @@ export default function CrewDetails({ crew }) {
 
       <hr className="w-full border border-gray sm:hidden" />
 
-      <div className="flex flex-col sm:flex-col-reverse sm:w-tabletCrewText items-center lg:flex lg:flex-col-reverse lg:mt-10">
+      <div className="flex flex-col sm:flex-col-reverse sm:w-tabletCrewText items-center lg:flex lg:flex-col-reverse lg:items-start lg:mt-10">
         <CrewNavbar />
 
         <div className="flex flex-col items-center sm:mt-14 lg:w-desktopCrewText lg:items-start">
