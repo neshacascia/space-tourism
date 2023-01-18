@@ -10,11 +10,14 @@ export default function Crew() {
   const { closeModal } = useContext(Context);
 
   return (
-    <div className="bg-crew bg-no-repeat bg-cover h-full">
+    <div className="bg-crew bg-no-repeat bg-cover h-full sm:bg-tabletCrew">
       <Navbar />
 
-      <section onClick={closeModal} className="flex flex-col items-center">
-        <div className="text-white font-h2 text-base leading-5 tracking-wider pb-8">
+      <section
+        onClick={closeModal}
+        className="flex flex-col items-center sm:block"
+      >
+        <div className="text-white font-h2 text-base leading-5 tracking-wider pb-8 sm:text-xl sm:mt-10 sm:ml-10">
           <h2>
             <span className="text-gray font-bold pr-2.5">02</span>MEET YOUR CREW
           </h2>

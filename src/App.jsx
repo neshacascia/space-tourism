@@ -1,11 +1,11 @@
 import React, { useContext } from 'react';
 import ReactDOM from 'react-dom';
 import { Routes, Route } from 'react-router-dom';
+import { Context } from './components/Context';
 import Home from './pages/Home';
 import Destination from './pages/Destination';
 import Crew from './pages/Crew';
 import Technology from './pages/Technology';
-import { Context } from './components/Context';
 import MobileMenuModal from './components/navbars/MobileMenuModal';
 import './App.css';
 

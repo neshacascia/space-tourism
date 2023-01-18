@@ -10,10 +10,13 @@ export default function Technology() {
   const { closeModal } = useContext(Context);
 
   return (
-    <div className="bg-technology bg-no-repeat bg-cover h-full">
+    <div className="bg-technology bg-no-repeat bg-cover h-full sm:bg-tabletTechnology">
       <Navbar />
-      <section onClick={closeModal} className="flex flex-col items-center">
-        <div className="text-white font-h2 text-base leading-5 tracking-wider pb-8">
+      <section
+        onClick={closeModal}
+        className="flex flex-col items-center sm:block"
+      >
+        <div className="text-white font-h2 text-base leading-5 tracking-wider pb-8 sm:text-xl sm:mt-10 sm:ml-10">
           <h2>
             <span className="text-gray font-bold pr-2.5">03</span>SPACE LAUNCH
             101
