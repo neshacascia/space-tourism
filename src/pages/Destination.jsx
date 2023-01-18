@@ -10,15 +10,15 @@ export default function Destination(props) {
   const { closeModal } = useContext(Context);
 
   return (
-    <div className="bg-destination bg-no-repeat bg-cover h-full sm:bg-tabletDestination">
+    <div className="bg-destination bg-no-repeat bg-cover h-full sm:bg-tabletDestination lg:bg-desktopDestination">
       <Navbar />
       <section
         onClick={closeModal}
         className="flex flex-col items-center pb-14 sm:block"
       >
-        <div className="text-white font-h2 text-base leading-5 tracking-wider pb-8 sm:text-xl sm:mt-10 sm:ml-10">
+        <div className="text-white font-h2 text-base leading-5 tracking-widest pb-8 sm:text-xl sm:mt-10 sm:ml-10 lg:text-3xl lg:ml-40 lg:mt-20">
           <h2 className="text-left">
-            <span className="text-gray font-bold pr-2.5">01</span>
+            <span className="text-gray font-bold pr-2.5 lg:mr-7">01</span>
             PICK YOUR DESTINATION
           </h2>
         </div>

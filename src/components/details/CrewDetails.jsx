@@ -3,28 +3,30 @@ import CrewNavbar from '../navbars/CrewNavbar';
 
 export default function CrewDetails({ crew }) {
   return (
-    <div className="h-screen flex flex-col items-center px-6 sm:flex-col-reverse sm:h-auto">
+    <div className="h-screen flex flex-col items-center px-6 sm:flex-col-reverse sm:h-auto lg:flex-row-reverse lg:justify-end lg:gap-32 lg:items-start">
       <div>
         <img
           src={crew.images.png}
-          className="w-crew h-crew object-contain sm:w-auto sm:h-tabletCrew sm:object-cover"
+          className="w-crew h-crew object-contain sm:w-auto sm:h-tabletCrew sm:object-cover lg:w-desktopCrew lg:object-contain"
         />
       </div>
 
       <hr className="w-full border border-gray sm:hidden" />
 
-      <CrewNavbar />
+      <div className="lg:flex lg:flex-col-reverse lg:mt-10">
+        <CrewNavbar />
 
-      <div className="flex flex-col items-center sm:mt-14">
-        <span className="text-lightGray font-h1 text-base mb-2 sm:text-2xl">
-          {crew.role.toUpperCase()}
-        </span>
-        <h1 className="text-white font-h1 text-2xl mb-4 sm:text-4xl">
-          {crew.name.toUpperCase()}
-        </h1>
-        <p className="text-lightBlue font-body leading-6 text-center">
-          {crew.bio}
-        </p>
+        <div className="flex flex-col items-center sm:mt-14 lg:w-desktopCrewText lg:items-start">
+          <span className="text-lightGray font-h1 text-base mb-2 sm:text-2xl lg:text-3xl lg:mb-4">
+            {crew.role.toUpperCase()}
+          </span>
+          <h1 className="text-white font-h1 text-2xl mb-4 sm:text-4xl lg:text-5xl lg:mb-7">
+            {crew.name.toUpperCase()}
+          </h1>
+          <p className="text-lightBlue font-body leading-6 text-center lg:text-left lg:mb-16 lg:w-desktopCrewPara lg:text-lg">
+            {crew.bio}
+          </p>
+        </div>
       </div>
     </div>
   );
