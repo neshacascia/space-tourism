@@ -9,6 +9,7 @@ module.exports = {
       colors: {
         lightBlue: '#D0D6F9',
         darkBlue: '#0B0D17',
+        mobileMenu: 'rgba(255, 255, 255, 0.04)',
       },
       fontFamily: {
         h1: ['Bellefair'],
@@ -24,6 +25,9 @@ module.exports = {
       },
       height: {
         button: '9.375rem',
+      },
+      backdropBlur: {
+        mobileMenu: '40.7742px',
       },
     },
   },
