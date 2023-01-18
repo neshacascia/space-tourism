@@ -4,23 +4,23 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        home: "url('./src/assets/home/background-home-mobile.jpg')",
+        home: "url('/assets/home/background-home-mobile.jpg')",
         destination:
-          "url('./src/assets/destination/background-destination-mobile.jpg')",
-        crew: "url('./src/assets/crew/background-crew-mobile.jpg')",
+          "url('/assets/destination/background-destination-mobile.jpg')",
+        crew: "url('/assets/crew/background-crew-mobile.jpg')",
         technology:
-          "url('./src/assets/technology/background-technology-mobile.jpg')",
-        tabletHome: "url('./src/assets/home/background-home-tablet.jpg')",
+          "url('/assets/technology/background-technology-mobile.jpg')",
+        tabletHome: "url('/assets/home/background-home-tablet.jpg')",
         tabletDestination:
-          "url('./src/assets/destination/background-destination-tablet.jpg')",
-        tabletCrew: "url('./src/assets/crew/background-crew-tablet.jpg')",
+          "url('/assets/destination/background-destination-tablet.jpg')",
+        tabletCrew: "url('/assets/crew/background-crew-tablet.jpg')",
         tabletTechnology:
-          "url('./src/assets/technology/background-technology-tablet.jpg')",
-        desktopHome: "url('./src/assets/home/background-home-desktop.jpg')",
+          "url('/assets/technology/background-technology-tablet.jpg')",
+        desktopHome: "url('/assets/home/background-home-desktop.jpg')",
         desktopDestination:
-          "url('./src/assets/destination/background-destination-desktop.jpg')",
+          "url('/assets/destination/background-destination-desktop.jpg')",
         desktopTechnology:
-          "url('./src/assets/technology/background-technology-desktop.jpg')",
+          "url('/assets/technology/background-technology-desktop.jpg')",
       },
       colors: {
         lightBlue: '#D0D6F9',
