@@ -32,10 +32,12 @@ module.exports = {
         button: '9.375rem',
         planet: '10.625rem',
         crew: '20.4375rem',
+        tech: '23.4375rem',
       },
       height: {
         button: '9.375rem',
         crew: '13.9375rem',
+        tech: '10.625rem',
       },
       backdropBlur: {
         mobileMenu: '40.7742px',

@@ -4,7 +4,7 @@ import CrewNavbar from './CrewNavbar';
 export default function CrewDetails({ crew }) {
   return (
     <div className="h-screen flex flex-col items-center px-6">
-      <div className="crew-details-right">
+      <div>
         <img src={crew.images.png} className="w-crew h-crew object-contain" />
       </div>
 

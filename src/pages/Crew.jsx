@@ -12,6 +12,7 @@ export default function Crew() {
   return (
     <div className="bg-crew bg-no-repeat bg-cover h-full">
       <Navbar />
+
       <section onClick={closeModal} className="flex flex-col items-center">
         <div className="text-white font-h2 text-base leading-5 tracking-wider pb-8">
           <h2>
@@ -19,7 +20,7 @@ export default function Crew() {
           </h2>
         </div>
 
-        <div className="crew-right">
+        <div>
           <Routes>
             <Route
               exact
