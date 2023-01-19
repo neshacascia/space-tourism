@@ -8,10 +8,17 @@ import { navBarArr } from '../../navbarData';
 export default function Navbar(props) {
   const { openModal } = useContext(Context);
 
+  const activeStyle = {
+    borderBlockEnd: 'solid white 4px',
+  };
+
+  const activeClassName = 'underline';
+
   const navLinks = navBarArr.map(nav => (
     <NavLink
       to={nav.path}
-      className="hover:border-b-4 hover:border-lightGray focus:border-b-4 pb"
+      style={({ isActive }) => (isActive ? activeStyle : undefined)}
+      className="hover:border-b-4 hover:border-lightGray active:border-white focus:border-white focus:border-b-4 pb"
       key={nav.id}
     >
       <span className="font-bold pr-3 hidden lg:inline">{nav.num}</span>
