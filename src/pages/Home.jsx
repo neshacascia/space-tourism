@@ -1,4 +1,5 @@
 import React, { useContext } from 'react';
+import { Link } from 'react-router-dom';
 import Navbar from '../components/navbars/Navbar';
 import { Context } from '../components/Context';
 
@@ -26,9 +27,11 @@ export default function Home(props) {
         </div>
 
         <div>
-          <button className="bg-white font-h1 text-darkBlue text-button h-button w-button rounded-full sm:w-tabletButton sm:h-tabletButton sm:text-3xl sm:mb-20">
-            EXPLORE
-          </button>
+          <Link to="/destination">
+            <button className="bg-white font-h1 text-darkBlue text-button h-button w-button rounded-full sm:w-tabletButton sm:h-tabletButton sm:text-3xl sm:mb-20">
+              EXPLORE
+            </button>
+          </Link>
         </div>
       </section>
     </div>
