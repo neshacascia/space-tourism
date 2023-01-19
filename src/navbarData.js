@@ -51,7 +51,7 @@ export const planetsNavBarArr = [
 export const crewNavBarArr = [
   {
     id: '0',
-    path: '/crew/douglas',
+    path: '/crew',
   },
   {
     id: '1',
@@ -64,5 +64,23 @@ export const crewNavBarArr = [
   {
     id: '3',
     path: '/crew/anousheh',
+  },
+];
+
+export const techNavBarArr = [
+  {
+    id: '0',
+    num: 1,
+    path: '/technology/',
+  },
+  {
+    id: '1',
+    num: 2,
+    path: '/technology/spaceport',
+  },
+  {
+    id: '2',
+    num: 3,
+    path: '/technology/space-capsule',
   },
 ];
