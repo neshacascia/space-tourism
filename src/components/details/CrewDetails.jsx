@@ -16,14 +16,14 @@ export default function CrewDetails({ crew }) {
       <div className="flex flex-col sm:flex-col-reverse sm:w-tabletCrewText items-center lg:flex lg:flex-col-reverse lg:items-start lg:mt-10">
         <CrewNavbar />
 
-        <div className="flex flex-col items-center sm:mt-14 lg:w-desktopCrewText lg:items-start">
+        <div className="flex flex-col items-center sm:mt-14 lg:w-desktopCrewPara lg:items-start">
           <span className="text-lightGray font-h1 text-base mb-2 sm:text-2xl lg:text-3xl lg:mb-4">
             {crew.role.toUpperCase()}
           </span>
           <h1 className="text-white font-h1 text-2xl mb-4 sm:text-4xl lg:text-5xl lg:mb-7">
             {crew.name.toUpperCase()}
           </h1>
-          <p className="text-lightBlue font-body leading-6 text-center lg:text-left lg:mb-16 lg:w-desktopCrewPara lg:text-lg">
+          <p className="text-lightBlue font-body leading-6 text-center lg:text-left lg:mb-14 lg:text-lg">
             {crew.bio}
           </p>
         </div>

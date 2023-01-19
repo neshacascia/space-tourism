@@ -16,7 +16,7 @@ export default function Destination(props) {
         onClick={closeModal}
         className="flex flex-col items-center pb-14 sm:block"
       >
-        <div className="text-white font-h2 text-base leading-5 tracking-widest pb-8 sm:text-xl sm:mt-10 sm:ml-10 lg:text-3xl lg:ml-40 lg:mt-16">
+        <div className="text-white font-h2 text-base leading-5 tracking-widest pb-8 sm:text-xl sm:mt-10 sm:ml-10 lg:text-2xl lg:ml-40 lg:mt-14 lg:pb-2">
           <h2 className="text-left">
             <span className="text-gray font-bold pr-2.5 lg:mr-7">01</span>
             PICK YOUR DESTINATION
