@@ -6,11 +6,11 @@ export default function Home(props) {
   const { closeModal } = useContext(Context);
 
   return (
-    <div className="bg-home bg-no-repeat bg-cover h-screen sm:bg-tabletHome sm:h-full lg:bg-desktopHome lg:h-full">
+    <div className="bg-home bg-no-repeat bg-cover h-screen sm:bg-tabletHome sm:h-full lg:bg-desktopHome lg:h-screen">
       <Navbar />
       <section
         onClick={closeModal}
-        className="px-6 flex flex-col justify-center items-center gap-20 text-lightBlue mt-12 sm:mt-24 lg:flex-row lg:mx-60 lg:mt-40 lg:justify-between"
+        className="px-6 flex flex-col justify-center items-center gap-20 text-lightBlue mt-12 sm:mt-24 lg:flex-row lg:mx-60 lg:mt-32 lg:justify-between"
       >
         <div className="left w-homeText flex flex-col gap-4 text-center sm:w-desktopHomeText lg:items-start lg:w-96">
           <h2 className="font-h2 text-base font-normal sm:text-xl lg:text-3xl">
