@@ -47,3 +47,22 @@ export const planetsNavBarArr = [
     name: 'TITAN',
   },
 ];
+
+export const crewNavBarArr = [
+  {
+    id: '0',
+    path: '/crew/douglas',
+  },
+  {
+    id: '1',
+    path: '/crew/mark',
+  },
+  {
+    id: '2',
+    path: '/crew/victor',
+  },
+  {
+    id: '3',
+    path: '/crew/anousheh',
+  },
+];
