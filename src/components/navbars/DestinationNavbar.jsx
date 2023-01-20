@@ -15,6 +15,7 @@ export default function DestinationNavbar() {
         style={({ isActive }) => (isActive ? activeStyle : undefined)}
         className="hover:border-b-4 hover:border-gray active:border-gray pb-2"
         key={planet.id}
+        end
       >
         {planet.name}
       </NavLink>

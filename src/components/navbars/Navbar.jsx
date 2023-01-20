@@ -9,10 +9,8 @@ export default function Navbar(props) {
   const { openModal } = useContext(Context);
 
   const activeStyle = {
-    borderBlockEnd: 'solid white 4px',
+    borderBottom: 'solid white 3px',
   };
-
-  const activeClassName = 'underline';
 
   const navLinks = navBarArr.map(nav => (
     <NavLink

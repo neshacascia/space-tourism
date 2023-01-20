@@ -3,12 +3,19 @@ import { NavLink } from 'react-router-dom';
 import { techNavBarArr } from '../../navbarData';
 
 export default function TechnologyNavbar() {
+  const activeStyle = {
+    background: 'white',
+    color: '#0B0D17',
+  };
+
   const techNavLinks = techNavBarArr.map(tech => (
     <li className="w-10 h-10 sm:w-techNavButton sm:h-techNavButton lg:w-desktopTechNav lg:h-desktopTechNav">
       <NavLink
         to={tech.path}
-        className="text-white bg-transparent outline outline-gray outline-1 rounded-full w-full h-full flex justify-center items-center hover:outline-white focus:bg-white focus:text-darkBlue sm:text-2xl lg:text-3xl"
+        style={({ isActive }) => (isActive ? activeStyle : undefined)}
+        className="text-white bg-transparent outline outline-gray outline-1 rounded-full w-full h-full flex justify-center items-center hover:outline-white sm:text-2xl lg:text-3xl"
         key={tech.id}
+        end
       >
         {tech.num}
       </NavLink>

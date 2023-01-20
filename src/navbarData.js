@@ -28,7 +28,7 @@ export const navBarArr = [
 export const planetsNavBarArr = [
   {
     id: '0',
-    path: '/destination/',
+    path: '/destination',
     name: 'MOON',
   },
   {
@@ -71,7 +71,7 @@ export const techNavBarArr = [
   {
     id: '0',
     num: 1,
-    path: '/technology/',
+    path: '/technology',
   },
   {
     id: '1',
