@@ -7,7 +7,7 @@ export default function Home(props) {
   const { closeModal } = useContext(Context);
 
   return (
-    <div className="bg-home bg-no-repeat bg-cover h-screen sm:bg-tabletHome sm:h-full lg:bg-desktopHome lg:h-full">
+    <div className="bg-home bg-no-repeat bg-cover h-screen sm:bg-tabletHome sm:h-full lg:bg-desktopHome lg:h-full xl:h-screen">
       <Navbar />
       <section
         onClick={closeModal}

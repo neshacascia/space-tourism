@@ -10,7 +10,7 @@ export default function Crew() {
   const { closeModal } = useContext(Context);
 
   return (
-    <div className="bg-crew bg-no-repeat bg-cover h-full sm:bg-tabletCrew lg:bg-desktopCrew">
+    <div className="bg-crew bg-no-repeat bg-cover h-full sm:bg-tabletCrew lg:bg-desktopCrew xl:h-screen">
       <Navbar />
 
       <section
