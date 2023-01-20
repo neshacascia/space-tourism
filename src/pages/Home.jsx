@@ -11,7 +11,7 @@ export default function Home(props) {
       <Navbar />
       <section
         onClick={closeModal}
-        className="px-6 flex flex-col justify-center items-center gap-20 text-lightBlue mt-10 sm:mt-24 lg:flex-row lg:mx-60 lg:mt-28 lg:justify-between"
+        className="px-6 flex flex-col justify-center items-center gap-20 text-lightBlue mt-10 sm:mt-24 lg:flex-row lg:mx-60 lg:mt-24 lg:gap-96"
       >
         <div className="left w-homeText flex flex-col gap-4 text-center sm:w-desktopHomeText lg:items-start lg:w-96">
           <h2 className="font-h2 text-base font-normal sm:text-xl lg:text-3xl">
