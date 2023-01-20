@@ -4,11 +4,16 @@ import { NavLink } from 'react-router-dom';
 import { planetsNavBarArr } from '../../navbarData';
 
 export default function DestinationNavbar() {
+  const activeStyle = {
+    borderBottom: 'solid white 4px',
+  };
+
   const planetsNavLinks = planetsNavBarArr.map(planet => (
     <li>
       <NavLink
         to={planet.path}
-        className="hover:border-b-4 hover:border-gray focus:border-b-4 active:border-gray pb-2"
+        style={({ isActive }) => (isActive ? activeStyle : undefined)}
+        className="hover:border-b-4 hover:border-gray active:border-gray pb-2"
         key={planet.id}
       >
         {planet.name}
