@@ -3,15 +3,15 @@ import DestinationNavbar from '../navbars/DestinationNavbar';
 
 export default function DestinationDetails({ destination }) {
   return (
-    <div className="flex flex-col items-center md:flex-col lg:flex-row lg:mr-40 lg:gap-40">
+    <div className="flex flex-col items-center md:flex-col lg:flex-row lg:gap-40 lg:mr-40">
       <div>
         <img
           src={destination.images.png}
-          className="w-planet h-planet mb-7 sm:w-tabletPlanet sm:h-tabletPlanet sm:my-14 lg:ml-56 lg:w-desktopPlanet lg:h-desktopPlanet"
+          className="w-planet h-planet mb-7 sm:w-tabletPlanet sm:h-tabletPlanet sm:my-14 lg:w-desktopPlanet lg:h-desktopPlanet lg:ml-56"
         />
       </div>
 
-      <div className="lg:flex-col lg:w-desktopPlanetText mb-20">
+      <div className="mb-20 lg:flex-col lg:w-desktopPlanetText">
         <DestinationNavbar />
 
         <div className="flex flex-col items-center px-6 lg:items-start lg:px-0">
@@ -32,7 +32,7 @@ export default function DestinationDetails({ destination }) {
               </span>
             </div>
 
-            <div className="travel-time">
+            <div>
               <h4 className="text-lightBlue font-h2 leading-5 tracking-wider text-center mb-3 lg:text-left">
                 EST. TRAVEL TIME
               </h4>

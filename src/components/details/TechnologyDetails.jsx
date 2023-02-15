@@ -3,7 +3,7 @@ import TechnologyNavbar from '../navbars/TechnologyNavbar';
 
 export default function TechnologyDetails({ tech }) {
   return (
-    <div className="flex flex-col items-center h-screen lg:flex-row-reverse lg:items-start lg:justify-around lg:mt-10">
+    <div className="h-screen flex flex-col items-center lg:flex-row-reverse lg:justify-around lg:items-start lg:mt-10">
       <img
         src={tech.images.portrait}
         className="w-tech h-tech object-cover object-center sm:w-screen sm:h-tabletTech sm:mb-12 lg:h-desktopTech lg:w-desktopTech"

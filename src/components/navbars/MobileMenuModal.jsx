@@ -1,6 +1,7 @@
 import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import { Context } from '../context/Context';
+
 import closeButton from '../../../public/assets/shared/icon-close.svg';
 
 export default function MobileMenuModal() {
@@ -14,7 +15,7 @@ export default function MobileMenuModal() {
         onClick={closeModal}
       />
 
-      <ul className="bg-mobileMenu backdrop-blur-mobileMenu h-screen fixed z-10 right-0 w-64 flex flex-col gap-8 pl-8 pt-28 text-white font-h2 font-normal text-base leading-5 tracking-wider sm:hidden">
+      <ul className="text-white bg-mobileMenu backdrop-blur-mobileMenu font-h2 font-normal text-base leading-5 tracking-wider w-64 h-screen flex flex-col gap-8 fixed z-10 right-0 pl-8 pt-28 sm:hidden">
         <li>
           <Link
             to="/"

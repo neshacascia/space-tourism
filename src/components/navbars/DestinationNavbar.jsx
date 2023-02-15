@@ -23,7 +23,7 @@ export default function DestinationNavbar() {
   ));
 
   return (
-    <ul className="text-lightBlue font-h2 text-base font-normal leading-5 tracking-wider flex gap-6 items-center justify-center mb-8 lg:justify-start">
+    <ul className="text-lightBlue font-h2 text-base font-normal leading-5 tracking-wider flex items-center justify-center gap-6 mb-8 lg:justify-start">
       {planetsNavLinks}
     </ul>
   );

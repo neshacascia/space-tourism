@@ -1,5 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+
 import { crewNavBarArr } from '../../navbarData';
 
 export default function CrewNavbar() {
