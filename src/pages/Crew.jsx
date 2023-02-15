@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import { Routes, Route } from 'react-router-dom';
-import { Context } from '../components/Context';
+import { Context } from '../components/context/Context';
 import Navbar from '../components/navbars/Navbar';
 import CrewDetails from '../components/details/CrewDetails';
 
@@ -10,7 +10,7 @@ export default function Crew() {
   const { closeModal } = useContext(Context);
 
   return (
-    <div className="bg-crew bg-no-repeat bg-cover h-full sm:bg-tabletCrew lg:bg-desktopCrew xl:h-screen">
+    <div className="bg-crew bg-no-repeat bg-cover min-h-screen sm:bg-tabletCrew lg:bg-desktopCrew">
       <Navbar />
 
       <section

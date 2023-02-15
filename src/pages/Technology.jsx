@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import { Routes, Route } from 'react-router-dom';
-import { Context } from '../components/Context';
+import { Context } from '../components/context/Context';
 import Navbar from '../components/navbars/Navbar';
 import TechnologyDetails from '../components/details/TechnologyDetails';
 
@@ -10,7 +10,7 @@ export default function Technology() {
   const { closeModal } = useContext(Context);
 
   return (
-    <div className="bg-technology bg-no-repeat bg-cover h-full sm:bg-tabletTechnology lg:bg-desktopTechnology">
+    <div className="bg-technology bg-no-repeat bg-cover min-h-full sm:bg-tabletTechnology lg:bg-desktopTechnology">
       <Navbar />
       <section
         onClick={closeModal}

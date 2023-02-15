@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import { Routes, Route } from 'react-router-dom';
-import { Context } from '../components/Context';
+import { Context } from '../components/context/Context';
 import Navbar from '../components/navbars/Navbar';
 import DestinationDetails from '../components/details/DestinationDetails';
 
@@ -10,7 +10,7 @@ export default function Destination(props) {
   const { closeModal } = useContext(Context);
 
   return (
-    <div className="bg-destination bg-no-repeat bg-cover h-full sm:bg-tabletDestination lg:bg-desktopDestination xl:h-screen">
+    <div className="bg-destination bg-no-repeat bg-cover min-h-screen sm:bg-tabletDestination lg:bg-desktopDestination">
       <Navbar />
       <section
         onClick={closeModal}

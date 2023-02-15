@@ -1,13 +1,13 @@
 import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import Navbar from '../components/navbars/Navbar';
-import { Context } from '../components/Context';
+import { Context } from '../components/context/Context';
 
 export default function Home(props) {
   const { closeModal } = useContext(Context);
 
   return (
-    <div className="bg-home bg-no-repeat bg-cover h-screen sm:bg-tabletHome sm:h-full lg:bg-desktopHome lg:h-full xl:h-screen">
+    <div className="bg-home bg-no-repeat bg-cover min-h-full sm:bg-tabletHome lg:bg-desktopHome">
       <Navbar />
       <section
         onClick={closeModal}
