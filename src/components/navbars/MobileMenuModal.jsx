@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
-import { Context } from '../Context';
+import { Context } from '../context/Context';
 import closeButton from '../../../public/assets/shared/icon-close.svg';
 
 export default function MobileMenuModal() {

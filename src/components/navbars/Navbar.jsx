@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import { NavLink } from 'react-router-dom';
 import logo from '/assets/shared/logo.svg';
 import hamburgerMenu from '/assets/shared/icon-hamburger.svg';
-import { Context } from '../Context';
+import { Context } from '../context/Context';
 import { navBarArr } from '../../navbarData';
 
 export default function Navbar(props) {
