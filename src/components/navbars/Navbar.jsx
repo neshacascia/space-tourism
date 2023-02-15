@@ -16,7 +16,7 @@ export default function Navbar(props) {
     <NavLink
       to={nav.path}
       style={({ isActive }) => (isActive ? activeStyle : undefined)}
-      className="hover:border-b-4 hover:border-lightGray active:border-white focus:border-white focus:border-b-4 pb"
+      className="hover:border-b-4 hover:border-lightGray active:border-white focus:border-white focus:border-b-4 pb h-full flex items-center"
       key={nav.id}
     >
       <span className="font-bold pr-3 hidden lg:inline">{nav.num}</span>
