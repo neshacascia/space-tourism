@@ -28,7 +28,7 @@ export default function Home(props) {
 
         <div>
           <Link to="/destination">
-            <button className="bg-white font-h1 text-darkBlue text-button h-button w-button rounded-full sm:w-tabletButton sm:h-tabletButton sm:text-3xl sm:mb-20">
+            <button className="bg-white font-h1 text-darkBlue text-button h-button w-button rounded-full sm:w-tabletButton sm:h-tabletButton sm:text-3xl sm:mb-20 z-10 relative hvr-ripple-out">
               EXPLORE
             </button>
           </Link>
