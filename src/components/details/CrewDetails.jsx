@@ -3,7 +3,7 @@ import CrewNavbar from '../navbars/CrewNavbar';
 
 export default function CrewDetails({ crew }) {
   return (
-    <div className="h-screen flex flex-col items-center px-6 sm:h-auto sm:flex-col-reverse lg:flex-row-reverse lg:justify-end lg:items-start lg:gap-32">
+    <div className="h-screen flex flex-col items-center px-6 sm:h-auto sm:flex-col-reverse md:px-20 lg:flex-row-reverse lg:justify-end lg:items-start lg:gap-32">
       <div>
         <img
           src={crew.images.png}

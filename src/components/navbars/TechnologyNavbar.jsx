@@ -10,7 +10,10 @@ export default function TechnologyNavbar() {
   };
 
   const techNavLinks = techNavBarArr.map(tech => (
-    <li className="w-10 h-10 sm:w-techNavButton sm:h-techNavButton lg:w-desktopTechNav lg:h-desktopTechNav">
+    <li
+      className="w-10 h-10 sm:w-techNavButton sm:h-techNavButton lg:w-desktopTechNav lg:h-desktopTechNav"
+      key={tech.id}
+    >
       <NavLink
         to={tech.path}
         style={({ isActive }) => (isActive ? activeStyle : undefined)}
@@ -22,6 +25,7 @@ export default function TechnologyNavbar() {
       </NavLink>
     </li>
   ));
+
   return (
     <ul className="flex gap-4 my-8 sm:mb-11 lg:flex-col lg:gap-8">
       {techNavLinks}

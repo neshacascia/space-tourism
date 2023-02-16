@@ -13,7 +13,7 @@ export default function Home(props) {
         onClick={closeModal}
         className="text-lightBlue flex flex-col justify-center items-center gap-20 px-6 mt-10 sm:mt-24 lg:flex-row lg:gap-96 lg:mx-60 lg:mt-24"
       >
-        <div className="left text-center w-homeText flex flex-col gap-4 sm:w-desktopHomeText lg:items-start lg:w-96">
+        <div className="left text-center w-homeText flex flex-col gap-4 sm:w-desktopHomeText lg:w-96 lg:items-start">
           <h2 className="font-h2 text-base font-normal sm:text-xl lg:text-3xl">
             SO, YOU WANT TO TRAVEL TO
           </h2>

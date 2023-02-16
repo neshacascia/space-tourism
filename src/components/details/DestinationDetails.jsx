@@ -3,11 +3,11 @@ import DestinationNavbar from '../navbars/DestinationNavbar';
 
 export default function DestinationDetails({ destination }) {
   return (
-    <div className="flex flex-col items-center md:flex-col lg:flex-row lg:gap-40 lg:mr-40">
+    <div className="w-screen flex flex-col items-center md:flex-col lg:flex-row lg:justify-center lg:gap-60 lg:mr-40">
       <div>
         <img
           src={destination.images.png}
-          className="w-planet h-planet mb-7 sm:w-tabletPlanet sm:h-tabletPlanet sm:my-14 lg:w-desktopPlanet lg:h-desktopPlanet lg:ml-56"
+          className="w-planet h-planet object-contain mb-7 sm:w-tabletPlanet sm:h-tabletPlanet sm:my-14 lg:w-desktopPlanet lg:h-desktopPlanet lg:ml-56"
         />
       </div>
 

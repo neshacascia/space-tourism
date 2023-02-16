@@ -9,7 +9,7 @@ export default function DestinationNavbar() {
   };
 
   const planetsNavLinks = planetsNavBarArr.map(planet => (
-    <li>
+    <li key={planet.id}>
       <NavLink
         to={planet.path}
         style={({ isActive }) => (isActive ? activeStyle : undefined)}

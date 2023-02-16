@@ -14,9 +14,9 @@ export default function Technology() {
       <Navbar />
       <section
         onClick={closeModal}
-        className="flex flex-col items-center sm:block lg:ml-40"
+        className="flex flex-col items-center sm:flex lg:ml-40 xl:flex xl:justify-center"
       >
-        <div className="text-white font-h2 text-base leading-5 tracking-widest pb-8 sm:text-xl sm:mt-10 sm:ml-10 lg:text-2xl lg:pb-2 lg:mt-14">
+        <div className="text-white font-h2 text-base leading-5 tracking-widest pb-8 sm:text-xl sm:self-start sm:mt-10 sm:ml-10 lg:text-2xl lg:pb-2 lg:mt-14 lg:ml-40">
           <h2>
             <span className="text-gray font-bold pr-2.5 lg:mr-7">03</span>
             SPACE LAUNCH 101
