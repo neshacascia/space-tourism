@@ -14,9 +14,9 @@ export default function Destination(props) {
       <Navbar />
       <section
         onClick={closeModal}
-        className="flex flex-col items-center pb-14 sm:flex"
+        className="flex flex-col items-center pb-14 sm:flex lg:mx-44"
       >
-        <div className="text-white font-h2 text-base leading-5 tracking-widest pb-8 sm:text-xl sm:self-start sm:mt-10 sm:ml-10 lg:text-2xl lg:pb-2 lg:mt-14 xl:ml-80">
+        <div className="text-white font-h2 text-base leading-5 tracking-widest pb-8 sm:text-xl sm:self-start sm:mt-10 sm:ml-10 lg:text-2xl lg:pb-2 lg:mt-14">
           <h2>
             <span className="text-gray font-bold pr-2.5 lg:mr-7">01</span>
             PICK YOUR DESTINATION
