@@ -8,10 +8,10 @@ This multi-page space tourism website displays information about various destina
 <img src="space-tourism-screenshot.png" alt="" border="0">
 
 ## Built with
-- TailwindCSS
 - React
 - React Router v6
 - Vite
+- TailwindCSS
 
 ## Features
 - [x] View the optimal layout for each of the website's pages depending on their device's screen size
